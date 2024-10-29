@@ -58,7 +58,7 @@ const HomeAboutFour = () => {
               <div className="fm-about-content-2">
                 <p>
                   We are a full-service digital marketing agency that views each
-                  of our clients as true business partners. We're an
+                  of our clients as true business partners. We are an
                   award-winning team for bright ideas — a small team of
                   designers, developers, social media marketers and thinkers who
                   are excited to help you bring your idea to life.

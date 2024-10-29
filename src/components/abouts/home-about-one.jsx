@@ -85,8 +85,8 @@ const AboutSection = () => {
 
         <SwiperSlide>
           <p className="mb-20">
-            {`At our Global Honey Bee`} Everyone's talking about it! It's a
-            new era in marketing! It is "The Experience Era"!! It's a time
+            {`At our Global Honey Bee`} Everyones talking about it! Its a
+            new era in marketing! It is "The Experience Era"!! Its a time
             when people are looking for a distinguished experience via
             engaging with brands and with each other in entirely new ways.
             Today, people are taking control from the brands and
@@ -96,18 +96,18 @@ const AboutSection = () => {
             Our Story at Global Honey Bee also began while designing
             marketing experiences like these. We understand this new era
             because designing an immortal experience that matters to users
-            is what we’ve always done. For brands to win today, requires
-            storytelling that’s relevant, personal and genuine. It means
+            is what we have always done. For brands to win today, requires
+            storytelling that is relevant, personal and genuine. It means
             understanding the new power that trusted advocates wield. And,
-            more than anything, winning demands content that’s provocative,
+            more than anything, winning demands content that is provocative,
             original and irresistible.
           </p>
         </SwiperSlide>
 
         <SwiperSlide>
      <p className="mb-20">We are a creative studio of writers, designers, builders, strategists, conversation-starters and storytellers. We are passionate about our clients and through our astute research &amp; experience and dedicated people, we design and create experience for users associated with their businesses. </p>
-        <p  className="mb-20">With us, it‘s all about you. Simple as that! Your customers, employees, partners, and vendors expect to be engaged as individuals—based on their terms, their needs, and their interests. As a business, the only response is to change your approach to suit them. Our job is to help you do that. We use digital technology to help businesses engage each of their audiences with data-driven messages through experiences that span across channels. Because our services are designed to cover the spectrum—from strategy to enablement to operations—we're able to help you create the experiences, relationships, insights, and delivery that you need to be effective.</p>
-       <p className="lets">Let's create together</p>
+        <p  className="mb-20">With us, it is all about you. Simple as that! Your customers, employees, partners, and vendors expect to be engaged as individuals—based on their terms, their needs, and their interests. As a business, the only response is to change your approach to suit them. Our job is to help you do that. We use digital technology to help businesses engage each of their audiences with data-driven messages through experiences that span across channels. Because our services are designed to cover the spectrum—from strategy to enablement to operations—we are able to help you create the experiences, relationships, insights, and delivery that you need to be effective.</p>
+       <p className="lets">Let us create together</p>
         </SwiperSlide>
         
         {/* Add more SwiperSlide components for additional paragraphs if needed */}

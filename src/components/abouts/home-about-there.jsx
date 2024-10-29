@@ -31,7 +31,7 @@ const HomeAboutThere = () => {
                 {/* <p>Faime Production Is A Full—Service Production House Based Out Indonesia And Singapore That
                            Hosts A Thriving Roster Of Directors Working Across A Range Of Artistic Disciplines.</p> */}
                 <p>
-                  We're a team of dedicated multidisciplinary young people who
+                  We are a team of dedicated multidisciplinary young people who
                   truly madly deeply execute and deliver high quality Digital
                   products with knowledge and ambition . The Bigger the
                   challenge, the better we thrive under pressure
