@@ -13,7 +13,7 @@ const VideoSectionFour = () => {
    return (
       <>
         <div className="video-area fm-video-style bg-common-black">
-      <div className="fm-video-wrapper wow zoomIn" data-wow-delay="0.3s">
+      <div className="fm-video-wrapper wow zoomIn" data-wow-delay="0.3s" >
         <video loop muted autoPlay playsInline>
           <source src="/assets/video/Sci-Fi animation sample-(1080p).mp4" type="video/mp4" />
           <Image src="/public/assets/video/Sci-Fi animation sample-(1080p).mp4" width={640} height={360} controls alt='video' />

@@ -45,11 +45,11 @@ const MovieSliderThere = () => {
                   movies?.length ?
                     <>
                       {
-                        movies.slice(32, 35).map((item) => (
+                        movies.map((item) => (
                           <SwiperSlide key={item._id}>
                             <div
                               className="fm-director-thumb"
-                              style={{ backgroundImage: `url(${item.image})` }}
+                              style={{ backgroundImage: `url(https://www.ghb.digital/img/Banaaras_Photoshoot_Portfolio1.jpg)` }}
                             ></div>
                             <div className="fm-landing-slider-inner">
                               <div className="adjust-header-space"></div>
@@ -59,7 +59,7 @@ const MovieSliderThere = () => {
                                     <div className="fm-landing-slider-content ">
                                       <div className="fm-landing-slider-subtext fm-landing-slider-subtext-responsive mb-20 fm-translateY-80 fm-delay-03 fm-opacity-0 fm-duration-07">
                                         <span className="fm-landing-slider-subtag">
-                                          {item.movieTag}
+                                          {/* {item.movieTag} */} Health care
                                         </span>
                                         <span
                                           className="fm-landing-slider-tagcount"
@@ -77,7 +77,7 @@ const MovieSliderThere = () => {
                                         </span>
                                       </div>
                                       <h2 className="fm-landing-slider-title mb-25 fm-translateY-80 fm-delay-04 fm-opacity-0 fm-duration-07">
-                                        {item.title}
+                                        {item.Title}
                                       </h2>
                                       <p className="fm-translateY-80 fm-delay-05 fm-opacity-0 fm-duration-07">
                                         T{item.description} <br /> {item.desInfo}

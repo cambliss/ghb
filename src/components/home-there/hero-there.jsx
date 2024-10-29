@@ -2,9 +2,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import GalleryImage from '@assets/img/gallery/12.png';
-import HeroSmallBg from '@assets/img/bg/hero-small.png';
+// import HeroSmallBg from '@assets/img/bg/hero-small.png';
 import { useState } from 'react';
 import ModalVideo from 'react-modal-video';
+import hero from '@assets/img/movie/12.png'
+import icon from '@assets/img/movie/icon.png'
 
 const HeroThere = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,22 +21,24 @@ const HeroThere = () => {
               <div className="col-xl-9 col-lg-8 ">
                  <div className="fm-hero-section-wrapper p-relative hero__six_anim">
                     <div className="fm-hero-section-title">
-                       <span className="fm-hero-subtitle ">BEST WEB SERIES 2023</span>
+                       <span className="fm-hero-subtitle ">BY AWARD WINNING MARKETING TEAM</span>
                        <h1 className="fm-hero-main-title text-white hero__title-6">
-                          <span className="title-left">FAIME</span>
-                          <span className="spc-text title-right">GAME</span>
+                          <span className="title-left">DIGITAL <br /> CREATIVE</span>
+                          <span className="spc-text title-right"> EXPERIENCES</span>
                        </h1>
                     </div>
                     <div className="fm-hero-video-wrapper hero__six_anim">
                        <button className="play-btn popup-video" onClick={() => { openVideoModal(); }}
-                         style={{ backgroundImage: `url(${HeroSmallBg.src})`}}
+                        //  style={{ backgroundImage: `url(${HeroSmallBg.src})`}}
                           ><i className="fas fa-play"></i></button>
                     </div>
+                     
                  </div>
               </div>
               <div className="col-xl-4 col-lg-4 ">
                  <div className="fm-hero-thumb hero__right-6">
-                    <Image src={GalleryImage} style={{width:'100%', height:'auto'}}  alt="img not found"/>
+                    {/* <Image src={GalleryImage} style={{width:'100%', height:'auto'}}  alt="img not found"/> */}
+                    <Image src={hero} style={{width:'100%', height:'auto'}}  alt="img not found"/>
                  </div>
                  <div className="fm-slider-main-social-abs">
                     <div className="fm-sliderfull-social">

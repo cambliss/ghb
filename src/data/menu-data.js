@@ -1,22 +1,22 @@
 const menu_data = [
   {
     id: 1,
-    hasDropdown: true,
+    // hasDropdown: true,
     active:true,
     title: "Home",
     link: "/",
-    submenus:[]
-    // submenus: [
-    //   { title: "Movie Director", link: "/" },
-    //   { title: "Filming Works", link: "/filming-works" },
-    //   { title: "Movie and Film", link: "/movie-film" },
-    //   { title: "Filming History", link: "/filming-history" },
-    //   { title: "Popular Movies", link: "/popular-movies" },
-    // ],
+    submenus:[],
+    submenus: [
+      { title: "Movie Director", link: "/" },
+      { title: "Filming Works", link: "/filming-works" },
+      { title: "Movie and Film", link: "/movie-film" },
+      { title: "Filming History", link: "/filming-history" },
+      { title: "Popular Movies", link: "/popular-movies" },
+    ],
   },
   {
     id: 2,
-    hasDropdown: true,
+    // hasDropdown: true,
     // title: "Movie",
     title:"Services",
     link: "/Services",
@@ -44,7 +44,7 @@ const menu_data = [
     // title: "Pages",
     title:"About US",
     megaMenu: true,
-    link: "/About-US",
+    link: "/about-us",
     pages: true,
     
     mega_menus: [
@@ -94,7 +94,7 @@ const menu_data = [
   },
   {
     id: 5,
-    hasDropdown: true,
+    // hasDropdown: true,
     title: "Careers",
     link: "/blog",
     submenus:[],

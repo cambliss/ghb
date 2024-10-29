@@ -48,7 +48,7 @@ const BlogSectionThere = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="fm-blog-wrapper">
+          <div className="fm-blog-wrapper d-none" >
             {blogs.length &&
               blogs.slice(0, 3).map((item) => (
                 <div
@@ -58,13 +58,13 @@ const BlogSectionThere = () => {
                 >
                   <div className="fm-blog-thumb">
                     <Link href={`/blog-details/${item._id}`}>
-                      <Image
+                      {/* <Image
                         src={item.image}
                         width={500}
                         height={500}
                         style={{ width: "100%", height: "auto" }}
                         alt="image not found"
-                      />
+                      /> */}
                     </Link>
                   </div>
                   <div className="fm-blog-content blog__content ">

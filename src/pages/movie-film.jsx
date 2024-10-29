@@ -3,6 +3,7 @@ import { Wrapper } from '@layout/index';
 import React from 'react';
 import HomeThere from '../components/home-there'
 
+
 const index = () => {
   return (
     <Wrapper>

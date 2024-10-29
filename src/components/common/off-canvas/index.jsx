@@ -4,7 +4,7 @@ import Image from "next/image";
 import LogoImg from "@assets/img/logo/logo.png";
 import MobileMenus from "./mobile-menus";
 import Cambliss1 from "@assets/img/logo/cambliss.png"
-
+import ghb from '@assets/img/logo/GHB_logo.png'
 const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
   const handleSubmit = (e) => {
 
@@ -22,7 +22,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
             <div className="fm-header-sidebar-logo">
               <Link href="/">
                 <Image
-                  src={Cambliss1}
+                  src={ghb}
                   style={{ width: 'auto', height: 'auto' }}
                   alt="img not found"
                 />
@@ -54,10 +54,9 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
           </div>
           <div className="d-none d-sm-block">
             <div className="fm-offcanvas-about mt-30 mb-30">
-              <h4>About CAMBLISS</h4>
+              <h4>About Global honey bee</h4>
               <p>
-                We Believe Film And Moving Image Has The PowerTo Create
-                Significant Change.
+              We Believe Digital Marketing Has the Power to Transform Brands and Inspire Growth.
               </p>
             </div>
           </div>
@@ -74,11 +73,11 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   </Link>
                 </div>
                 <div className="offcanvas-contact-text">
-                  <Link
+                  <Link style={{lineHeight: '1.5'}}
                     target="_blank"
                     href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873"
                   >
-                    SURVEY NO: 75/2, BALAPUR(V), HYDERABAD, TELANGANA, 500005
+                  Global Honey Bee,E-57, Sector 63,Noida, GBN 201301
                   </Link>
                 </div>
               </li>
@@ -89,7 +88,7 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   </Link>
                 </div>
                 <div className="offcanvas-contact-text">
-                  <Link href="tel:915550303420">8309264634</Link>
+                  <Link href="tel:917042427719">+91 7042427719</Link>
                 </div>
               </li>
               <li className="d-flex align-items-center gap-2">
@@ -99,8 +98,8 @@ const OffCanvasMain = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
                   </Link>
                 </div>
                 <div className="offcanvas-contact-text">
-                  <Link href="mailto:contact@camblissstudio.com">
-                  contact@camblissstudio.com
+                  <Link href="mailto:hello@ghb.digital">
+                  hello@ghb.digital
                   </Link>
                 </div>
               </li>

@@ -8,6 +8,7 @@ import Menus from "./menus";
 import OffCanvasMain from "@components/common/off-canvas";
 import useGlobalContext from "@hooks/use-context";
 import Cambliss from "@assets/img/logo/cambliss.png"
+import ghb from '@assets/img/logo/GHB_logo.png'
 
 const Header = ({ HeaderWrapperClass }) => {
   const { user, logout } = useGlobalContext();
@@ -45,7 +46,7 @@ const Header = ({ HeaderWrapperClass }) => {
                 <Link href="/" className="fm-header-logo">
                   <Image
                     style={{ width: "200px", height: "60px" }}
-                    src={Cambliss}
+                    src={ghb}
                     alt="img not found"
                   />
                 </Link>

@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ModalVideo from "react-modal-video";
 import useMovieFatching from "@hooks/use-movie";
+import img from '@assets/img/movie/18.jpg'
 
 const MovieSliderEight = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -82,14 +83,14 @@ const MovieSliderEight = () => {
               }}
             >
               {movies?.length &&
-                movies.slice(52, 57).map((item) => (
+                movies.map((item) => (
                   <SwiperSlide key={item._id}>
                     <div>
                       <div className="fm-single-featured">
                         <div className="fm-featured-thumb">
                           <Link href="/movie">
                             <Image
-                              src={item.image}
+                              src={img}
                               width={500}
                               height={500}
                               style={{ width: "auto", height: "100%" }}
@@ -101,11 +102,11 @@ const MovieSliderEight = () => {
                           <div className="fm-featured-content-inner">
                             <Link href={`/movie-details/${item._id}`}>
                               <h4 className="fm-featured-title">
-                                {item.title}
+                                {item.Title}
                               </h4>
                             </Link>
                             <span className="fm-featured-meta">
-                              {item.releaseDate}
+                              {item.Year}
                             </span>
                           </div>
                           <div className="fm-video-play">

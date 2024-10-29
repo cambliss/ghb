@@ -10,7 +10,8 @@ import BlogSectionFour from './blog-section-four';
 import CertificateSlider from '@components/elements/slider/certificate-slider';
 import ContactSection from '@components/common/contact/contact-area';
 import FooterOne from '@layout/footers/footer-one';
-
+import TeamSectionThere from '@components/home-there/team-section-there';
+import Vediosectionthree from '@components/home-two/video-area-section'
 const index = () => {
     return (
         <>
@@ -21,9 +22,11 @@ const index = () => {
           <HistorySectionFour/>
           <PortFolioSectionFour/>
           {/* <TestimonialSliderTwo/> */}
-          <VideoSectionFour/>
+          {/* <VideoSectionFour/> */}
+          <Vediosectionthree/>
+          <TeamSectionThere/>
           <BlogSectionFour/>
-          <CertificateSlider/>
+          {/* <CertificateSlider/> */}
           <ContactSection/>
         </main>
         <FooterOne/>

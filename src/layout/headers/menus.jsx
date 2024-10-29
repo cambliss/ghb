@@ -23,7 +23,7 @@ const Menus = () => {
               </li>
             ))}
           </ul>}
-          {menu.mega_menus && (
+          {/* {menu.mega_menus && (
             <ul className="mega-menu">
               {menu.mega_menus.map((mega, i) => (
                 <li key={i}>
@@ -40,7 +40,7 @@ const Menus = () => {
                 </li>
               ))}
             </ul>
-          )}
+          )} */}
         </li>
       ))}
     </ul>

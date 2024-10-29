@@ -3,6 +3,9 @@ import Link from 'next/link';
 import React from 'react';
 
 const ContactAreaTwo = () => {
+
+   console.log( footerData.quickLinks.address);
+   
     return (
 <>
 <div className="contact-bottom-area section-spacing-top bg-common-black">
@@ -11,7 +14,7 @@ const ContactAreaTwo = () => {
                <div className="col-12">
                   <div className="fm-contact-meta-wrap">
                     {
-                       footerData.quickLinks.address.slice(3.5).map((item)=>(
+                       footerData.quickLinks.address.map((item)=>(
                             <div className={item.addressWrapperClass} key={item.id}>
                             <Link href={item.contactInfo}>
                                <p className={item.contactClass}>{item.contact}</p>

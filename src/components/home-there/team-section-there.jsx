@@ -3,6 +3,10 @@ import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import img1 from '@assets/img/team/1.jpg'
+import img2 from '@assets/img/team/2.jpg'
+import img3 from '@assets/img/team/3.jpg'
+import img4 from '@assets/img/team/4.jpg'
 
 const TeamSectionThere = () => {
   const [teams, setTeams] = useState([]);
@@ -14,7 +18,35 @@ const TeamSectionThere = () => {
       })
       .catch((err) => console.log(err));
   }, []);
-  
+  const teams1 = [
+    {
+      _id: "1",
+      teamItemClass: "team-item-1",
+      teamImg: img1, // Replace with actual image paths
+      teamName: "John Doe",
+      designation: "CEO & Founder",
+    },
+    {
+      _id: "2",
+      teamItemClass: "team-item-2",
+      teamImg: img2,
+      teamName: "Jane Smith",
+      designation: "Marketing Manager",
+    },
+    {
+      _id: "3",
+      teamItemClass: "team-item-3",
+      teamImg: img2,
+      teamName: "Michael Johnson",
+      designation: "Lead Developer",
+    },
+    {
+      _id: "4",
+      teamItemClass: "team-item-4",
+      teamImg:img4,
+      teamName: "Emily Davis",
+      designation: "UI/UX Designer",
+    },]
   return (
     <section className="team-area section-spacing fix">
       <div className="container">
@@ -52,9 +84,9 @@ const TeamSectionThere = () => {
       <div className="container">
         <div className="fm-team-border">
           <div className="fm-team-wrapper wow fadeInUp" data-wow-delay="0.5s">
-            {teams &&
-              teams.slice(4, 8).map((item) => (
-                <div className={item.teamItemClass} key={item._id}>
+            {teams1 &&
+              teams1.map((item) => (
+                <div className='fm-team-item p-relative ' key={item._id}>
                   <div className="fm-team-thumb w-img">
                     <Link href={`/team-details/${item._id}`}>
                       <Image

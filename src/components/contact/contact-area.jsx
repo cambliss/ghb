@@ -17,7 +17,7 @@ const ContactArea = () => {
                                  <span className="fm-contact-info-icon"><i className="fa-thin fa-phone"></i></span>
                                  <div className="fm-contact-info-text">
                                     <h5 className="fm-contact-info-text-label">Phone</h5>
-                                    <p><span>Inquiry : </span><Link href="tel:8309264634">8309264634</Link></p>
+                                    <p><span>Inquiry : </span><Link href="tel:7042427719">+91 7042427719</Link></p>
                                     {/* <p><span>Hotline : </span><Link href="fax:5879-6985">5879 - 6985</Link></p> */}
                                  </div>
                               </div>
@@ -26,8 +26,8 @@ const ContactArea = () => {
                                  <span className="fm-contact-info-icon"><i className="fa-thin fa-envelope-open-text"></i></span>
                                  <div className="fm-contact-info-text">
                                     <h5 className="fm-contact-info-text-label">Email</h5>
-                                    <p><Link href="mailto:contact@camblissstudio.com">contact@camblissstudio.com</Link></p>
-                                    <p><Link href="mailto:contact@camblissstudio.com">contact@camblissstudio.com</Link></p>
+                                    <p><Link href="mailto:hello@ghb.digital">hello@ghb.digital</Link></p>
+                                    {/* <p><Link href="mailto:contact@camblissstudio.com">contact@camblissstudio.com</Link></p> */}
                                  </div>
                               </div>
 
@@ -35,7 +35,7 @@ const ContactArea = () => {
                                  <span className="fm-contact-info-icon"><i className="fa-thin fa-map-location-dot"></i></span>
                                  <div className="fm-contact-info-text">
                                     <h5 className="fm-contact-info-text-label">Location</h5>
-                                    <p>SURVEY NO: 75/2, BALAPUR(V), HYDERABAD, TELANGANA, 500005</p>
+                                    <p>Global Honey Bee,E-57, Sector 63, Noida, GBN 201301</p>
                                  </div>
                               </div>
 

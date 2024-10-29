@@ -7,7 +7,7 @@ import "swiper/css/bundle";
 import ModalVideo from "react-modal-video";
 import GetRating from "@hooks/use-rating";
 import useMovieFatching from "@hooks/use-movie";
-
+import img from '@assets/img/movie/18.jpg'
 
 const MovieSliderSix = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -83,18 +83,18 @@ const MovieSliderSix = () => {
                               spaceBetween: 20,
                             },
                             1400: {
-                              slidesPerView: 5,
+                              slidesPerView: 1,
                               spaceBetween: 20,
                             },
                           }}
                         >
-                          {movies?.slice(47, 52).map((item) => (
+                          {movies?.map((item) => (
                             <SwiperSlide key={item._id}>
                               <div className="fm-landing-trending-single">
                                 <div className="fm-landing-trending-single-img">
                                   <span className="fm-landing-trending-premium-badge">
                                     <Image
-                                      src={item.badgeImg}
+                                      src={img}
                                       width={500}
                                       height={500}
                                       style={{ width: "100%", height: "auto" }}

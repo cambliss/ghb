@@ -1,7 +1,7 @@
 import React from "react";
 import AboutBg from "@assets/img/bg/about-bg.jpg";
 import Image from "next/image";
-
+import h1 from '@assets/img/brand/h1.jpg'
 const AboutArea = () => {
   return (
     <section className="about-area section-spacing fix">

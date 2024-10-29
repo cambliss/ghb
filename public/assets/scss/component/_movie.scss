@@ -415,7 +415,8 @@
   span.swiper-pagination-bullet-active {
     outline: 1px solid var(--clr-common-black);
     outline-offset: 13px;
-    background-color: var(--clr-common-black);
+    // background-color: var(--clr-common-black);
+    background-color: #FD6500;
   }
 }
 

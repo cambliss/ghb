@@ -14,7 +14,7 @@ const index = () => {
         <Breadcrumb title="Contact Us" subTitle="Contact Us" />
         <ContactArea />
         <ContactMap />
-        <ContactSection />
+        {/* <ContactSection /> */}
       </main>
       <FooterOne />
     </>

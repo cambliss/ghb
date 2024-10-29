@@ -154,3 +154,19 @@ a.meanmenu-reveal {
 .mean-remove {
 	display: none !important;
 }
+.lets {
+	position: relative;
+	padding-left: 120px; /* Adds space between the line and the text */
+  }
+  
+  .lets::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 60%;
+	transform: translateY(-50%);
+	width: 100px; /* Length of the line */
+	height: 2px; /* Thickness of the line */
+	background-color:red; /* Color of the line */
+	
+  }

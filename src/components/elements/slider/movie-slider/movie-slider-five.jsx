@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import useMovieFatching from "@hooks/use-movie";
 import Preloader from "@components/preloader";
-
+import img from '@assets/img/movie/18.jpg'
 const MovieSliderFive = () => {
   const movies = useMovieFatching();
 
@@ -72,7 +72,7 @@ const MovieSliderFive = () => {
                           spaceBetween: 30,
                         },
                         1400: {
-                          slidesPerView: 6,
+                          slidesPerView: 1,
                           spaceBetween: 30,
                         },
                       }}
@@ -81,7 +81,7 @@ const MovieSliderFive = () => {
                         movies?.length ?
                           <>
                             {
-                              movies.slice(40, 47).map((item) => (
+                              movies.map((item) => (
                                 <SwiperSlide key={item._id}>
                                   <div
                                     className="fm-landing-genre-single wow fadeInUp"
@@ -92,9 +92,9 @@ const MovieSliderFive = () => {
                                       className={item.imgBgColorClass}
                                     >
                                       <Image
-                                        src={item.image}
-                                        width={500}
-                                        height={500}
+                                        src={img}
+                                        // width={500}
+                                        // height={500}
                                         style={{
                                           width: "auto",
                                           height: "auto",
@@ -102,14 +102,15 @@ const MovieSliderFive = () => {
                                         alt="image not found"
                                       />
                                       <span className="fm-landing-genre-name">
-                                        {item.movieTag}
+                                        {/* {item.movieTa} */}
+                                        Healthcare
                                       </span>
                                     </Link>
                                     <Link
                                       href="/movie"
                                       className="fm-landing-genre-namesm"
                                     >
-                                      {item.MovieBtn}
+                                      {/* {item.MovieBtn} */} start
                                     </Link>
                                   </div>
                                 </SwiperSlide>

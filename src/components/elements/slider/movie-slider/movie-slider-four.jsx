@@ -9,7 +9,7 @@ import ModalVideo from "react-modal-video";
 import GetRating from "@hooks/use-rating";
 import useMovieFatching from "@hooks/use-movie";
 import Preloader from "@components/preloader";
-
+import img from '@assets/img/movie/18.jpg'
 
 const MovieSliderFour = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -74,7 +74,7 @@ const MovieSliderFour = () => {
                           spaceBetween: 30,
                         },
                         1200: {
-                          slidesPerView: 4,
+                          slidesPerView: 1,
                           spaceBetween: 30,
                         },
                       }}
@@ -83,7 +83,7 @@ const MovieSliderFour = () => {
                         movies?.length ?
                           <>
                             {
-                              movies.slice(35, 40).map((item) => (
+                              movies.map((item) => (
                                 <SwiperSlide key={item._id}>
                                   <div
                                     className="fm-landing-trending-single wow fadeInUp"
@@ -91,11 +91,11 @@ const MovieSliderFour = () => {
                                   >
                                     <div className="fm-landing-trending-single-img">
                                       <span className="fm-landing-trending-premium-badge">
-                                        {item.badgeImg && (
+                                        {item.poster && (
                                           <Image
-                                            src={item.badgeImg}
-                                            width={500}
-                                            height={500}
+                                            src={img}
+                                            // width={500}
+                                            // height={500}
                                             style={{
                                               width: "auto",
                                               height: "auto",
@@ -106,7 +106,7 @@ const MovieSliderFour = () => {
                                       </span>
                                       <Link href={`/movie-details/${item._id}`}>
                                         <Image
-                                          src={item.image}
+                                          src={img}
                                           width={500}
                                           height={500}
                                           style={{
@@ -117,7 +117,7 @@ const MovieSliderFour = () => {
                                         />
                                       </Link>
                                       <span className="fm-landing-trending-time">
-                                        {item.duration}
+                                        {item.Runtime}
                                       </span>
                                       <button
                                         className="fm-trending-video-btn popup-video"
@@ -134,7 +134,7 @@ const MovieSliderFour = () => {
                                       <div className="fm-landing-trending-content-text">
                                         <h4 className="fm-landing-trending-content-title">
                                           <Link href={`/movie-details/${item._id}`}>
-                                            {item.title}
+                                            {item.Title}
                                           </Link>
                                         </h4>
                                         <span className="fm-landing-trending-rating">

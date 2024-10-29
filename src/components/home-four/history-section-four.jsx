@@ -9,40 +9,50 @@ const HistorySectionFour = () => {
   const historyData = [
     {
       id: 1,
-      title: "Who we are",
+      title: "Discovery",
       iconOne: "far fa-mug-hot",
       iconTwo: "far fa-check",
       description:
-        "we are a team of young techno-savy minds melding our creativity with our enthusiasm ",
+        "We start our projects by understanding the scope and requirements. This is accomplished by working closely with you to make sure we are all on the same page.",
     },
     {
       id: 2,
-      title: "Our Mission",
+      title: "Plan",
       iconOne: "fa-solid fa-stars",
       iconTwo: "far fa-check",
       description:
-        "empower bussiness with tools and strategies you need to thrive in digital landscape",
+        "Following the initial kick-off meeting, we will outline your project, create milestones, and agree on project priorities. Now we have a strategic plan in place that aligns with your initial vision and makes your goals achievable.",
     },
     {
       id: 3,
-      title: "Our Values",
+      title: "Execute",
       iconOne: "far fa-mug-hot",
       iconTwo: "far fa-check",
       description:
-        "we give 100% client satisfaction using complex and reliable digital solutions ",
+        "The final design takes shape and, at this stage, the idea comes to life representing the visual concepts. Our creative development team reviews and revises the materials until it aligns with your goals.",
+    },
+    {
+      id: 4,
+      title: "Deliver",
+      iconOne: "far fa-mug-hot",
+      iconTwo: "far fa-check",
+      description:
+        "Review and testing takes place, which ensures the quality of your project. We value your reputation and want to make sure it is correct. After this, we present your finished custom project and upon approval, your new product/campaign will be launched and promoted.",
     },
   ];
   return (
     <div className="history-area section-spacing-bottom">
       <div className="container">
         <div className="row align-items-center g-5">
-          <div className="col-xl-6 col-lg-6 col-md-10">
+          <div className="col-xl-12 col-lg-12 col-md-10">
             <div className="single-history">
-              <div className="section-title sec-sub-style mb-60 wow fadeInUp" data-wow-delay="0.3s">
+              <div
+                className="section-title sec-sub-style mb-60 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
                 <span className="section-subtitle">Why Work With US</span>
                 <h2 className="section-main-title about-sec-title-2  title-anim">
                   Where imagination and Strategy Converge
-                 
                 </h2>
               </div>
 
@@ -74,8 +84,11 @@ const HistorySectionFour = () => {
             </div>
           </div>
 
-          <div className="col-xl-6 col-lg-6 col-md-10">
-            <div className="fm-history-thumb-wrapper wow fadeInUp" data-wow-delay="0.4s">
+          <div className="col-xl-6 col-lg-6 col-md-10 d-none">
+            <div
+              className="fm-history-thumb-wrapper wow fadeInUp"
+              data-wow-delay="0.4s"
+            >
               <div className="history-thumb-1">
                 <Image
                   src={historyImgOne}

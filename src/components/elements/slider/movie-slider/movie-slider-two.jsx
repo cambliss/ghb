@@ -7,6 +7,7 @@ import ModalVideo from "react-modal-video";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Preloader from "@components/preloader";
+import img from '@assets/img/movie/18.jpg'
 
 const MovieSliderTwo = () => {
   const [movies, setMovies] = useState([]);
@@ -16,19 +17,37 @@ const MovieSliderTwo = () => {
     setIsOpen(!isOpen);
     setVideoUrl(id);
   };
+  // useEffect(() => {
+  //   axios
+  //     .get(`${process.env.BASE_URL}movie/all-movie`)
+  //     .then((res) => {
+  //       setMovies(res.data);
+  //     })
+  //     .catch((e) => console.log(e));
+  // }, []);
   useEffect(() => {
     axios
-      .get(`${process.env.BASE_URL}movie/all-movie`)
+      // .get(`${process.env.BASE_URL}movie/all-movie`)
+      .get(`https://my-json-server.typicode.com/horizon-code-academy/fake-movies-api/movies`)
+
+
       .then((res) => {
         setMovies(res.data);
+        console.log(res.data);
+        
       })
       .catch((e) => console.log(e));
   }, []);
-
   return (
     <>
-      <div className="adjust-header-space bg-common-black"></div>
+      <div className="adjust-header-space bg-common-black" >    </div>
       {/* -- fm-movie-slider-area-start -- */}
+       {/* <h2 className="section-main-title about-main-title title-anim">
+
+      Highlighting Our Marketing Achievements
+              </h2> */}
+
+      {/* Highlighting Our Marketing Achievements */}
       <div className="fm-movie-slider-area fm-movie-pad">
         <div
           className="fm-movie-slider-wrapper wow fadeInUp"
@@ -74,19 +93,19 @@ const MovieSliderTwo = () => {
                 {movies?.length ?
                   <>
                     {
-                      movies.slice(17, 20).map((item) => (
+                      movies.map((item) => (
                         <SwiperSlide key={item._id}>
                           <div
                             className="fm-movie-slider-single"
-                            style={{ backgroundImage: `url(${item.image})` }}
+                            style={{ backgroundImage: `url(https://www.ghb.digital/img/Banaaras_Photoshoot_Portfolio1.jpg)` }}
                           >
                             <div className="fm-movie-slider-content">
-                              <span className="fm-movie-tag">{item.movieTag}</span>
+                              <span className="fm-movie-tag">Product Photoshoot</span>
                               <h4 className="fm-movie-slider-title">
-                                {item.title}
+                                {item.Title}
                               </h4>
                               <span className="fm-movie-duration">
-                                {item.duration}
+                                {item.Year}
                               </span>
                             </div>
                             <div className="fm-movie-video">

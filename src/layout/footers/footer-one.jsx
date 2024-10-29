@@ -6,7 +6,8 @@ import Logo from '@assets/img/logo/cambliss.png';
 import bgImage from '@assets/img/bg/footer/img-1.jpg';
 import footerData from "@data/footer-data";
 import { PhotoProvider, PhotoView } from "react-photo-view";
-
+import ghb from '@assets/img/logo/GHB_logo.png'
+import ghb2 from '@assets/img/logo/ghb_icon_small.png'
 
 const FooterOne = () => {
   return (
@@ -30,7 +31,7 @@ const FooterOne = () => {
                   <div className="footer-logo-2">
                     <Link href="/">
                       <Image
-                        src={Logo}
+                        src={ghb}
                         style={{ width: "200px", height: "60px" }}
                         alt="Logo"
                       />
@@ -58,6 +59,8 @@ const FooterOne = () => {
                               alt="gallery-image"
                               style={{ width: "100%", height: "auto" }}
                               src={item.image}
+                          
+
                             />
                           </span>
                         </li>

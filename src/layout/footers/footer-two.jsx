@@ -8,7 +8,7 @@ const FooterTwo = () => {
     return (
         <footer className="position-relative pt-80 bg-common-black">
         <div className="footer-area">
-           <div className="main-footer-top">
+           {/* <div className="main-footer-top">
               <div className="container">
                  <div className="row">
                     <div className="col-12">
@@ -27,7 +27,7 @@ const FooterTwo = () => {
                     </div>
                  </div>
               </div>
-           </div>
+           </div> */}
         <FooterTwoCopyRight/>
         </div>
      </footer>

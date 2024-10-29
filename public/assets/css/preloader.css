@@ -7,6 +7,11 @@
 	margin-top: 0px;
 	top: 0px;
 }
+
+
+
+
+
 #loading-center{
 	width: 100%;
 	height: 100%;
@@ -161,5 +166,51 @@
 
 
 
+	#second-about::before{
+		content: "";
+		background: rgba(0, 0, 0, 0.3);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		z-index: 3;
 	
-			
+	}
+	.fm-video-wrapper {
+		position: relative; /* To position the overlay over the video */
+		width: 100%;
+		height: 100%;
+	  }
+	  
+	  .fm-video-wrapper::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+		z-index: 1; /* Ensure the overlay is on top of the video */
+		pointer-events: none; /* Allow interaction with elements below the overlay */
+	  }
+	  .video-text{
+		position: absolute;
+		z-index: 2;
+		top: 75%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		color: #FFFFFF;
+		font-weight: bolder;
+		font-size: 2.6vw;
+
+	  }
+@media screen and (max-width:480px) {
+	.video-text{
+		font-size: 19px;
+		top: 80%;
+		
+	}
+}
