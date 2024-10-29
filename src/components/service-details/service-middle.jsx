@@ -67,7 +67,7 @@ const ServiceMiddle = () => {
       <p className="mb-45 ">
         {" "}
       Ore team specializes in  crafting stylish website design and development solutions that capture attention and leave a lasting impression. We understand the importance of asthetics
-      and strive to create visual stunning websites that reflect your brand's unique style.
+      and strive to create visual stunning websites that reflect your brands unique style.
       </p>
       <h4 className="case-subtitle mb-25">
         <span>
@@ -94,7 +94,7 @@ const ServiceMiddle = () => {
       </p>
       <p className="mb-30 ">
       <strong>Custom Icons</strong><br/>
-Cambliss talented team of designers specializes in creating unique and captivating visuals that perfectly align with your brand's identity and messaging      </p>
+Cambliss talented team of designers specializes in creating unique and captivating visuals that perfectly align with your brands identity and messaging      </p>
 <p className="mb-30 ">
       <strong>UI / UX</strong><br/>
 we craft visually appealing and user - friendly designs that not only captures attention but also guide users through your website or application effortlessly      </p>

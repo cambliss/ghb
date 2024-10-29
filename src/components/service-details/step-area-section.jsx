@@ -7,14 +7,14 @@ const StepAreaSection = () => {
       title: "Planning",
       // number: "01",
       description:
-        "It's important to develop a timeline, budget, project plan to have clear idea.",
+        "Its important to develop a timeline, budget, project plan to have clear idea.",
     },
     {
       id: 2,
       title: "Design",
       // number: "02",
       description:
-        " Create visual representation of the website's structure and layout.",
+        " Create visual representation of the websites structure and layout.",
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const StepAreaSection = () => {
       title: "Development",
       // number: "04",
       description:
-        "website's visual interface and server-side functionality is implemented.",
+        "websites visual interface and server-side functionality is implemented.",
     },
     {
       id: 5,
