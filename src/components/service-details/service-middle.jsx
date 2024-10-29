@@ -64,11 +64,11 @@ const ServiceMiddle = () => {
       Cambliss is specialized in creating powerful website design and development solutions that go beyond asthetics. Our team of skilled designers and developers leverage their expertise
       to craft websites that are not only visually stunning but also highly functional and effective.
       </p>
-      <p className="mb-45 ">
+      {/* <p className="mb-45 ">
         {" "}
       Ore team specializes in  crafting stylish website design and development solutions that capture attention and leave a lasting impression. We understand the importance of asthetics
       and strive to create visual stunning websites that reflect your brands unique style.
-      </p>
+      </p> */}
       <h4 className="case-subtitle mb-25">
         <span>
           <svg
@@ -92,9 +92,9 @@ const ServiceMiddle = () => {
       <strong>Web Design</strong><br/>
       We create websites that are visually appealing and highly functional. Our team of talented designers carefully crafts each element of your website, ensuring a seamless and inituative user interface.
       </p>
-      <p className="mb-30 ">
+      {/* <p className="mb-30 ">
       <strong>Custom Icons</strong><br/>
-Cambliss talented team of designers specializes in creating unique and captivating visuals that perfectly align with your brands identity and messaging      </p>
+Cambliss talented team of designers specializes in creating unique and captivating visuals that perfectly align with your brands identity and messaging      </p> */}
 <p className="mb-30 ">
       <strong>UI / UX</strong><br/>
 we craft visually appealing and user - friendly designs that not only captures attention but also guide users through your website or application effortlessly      </p>
@@ -112,7 +112,6 @@ we craft visually appealing and user - friendly designs that not only captures a
         transitions.
       </p> */}
       
-      we offer robust hosting solutions tailored to your specific need's.
 
     </div>
   );
