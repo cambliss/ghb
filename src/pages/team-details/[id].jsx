@@ -10,7 +10,7 @@ const TeamDetails = () => {
 
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="GHB" />
       <TeamDetailsPage id={id} />
     </Wrapper>
   );

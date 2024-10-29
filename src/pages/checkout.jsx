@@ -8,7 +8,7 @@ const index = () => {
   return (
     <Wrapper>
       <PrivateRoute redirect="/checkout">
-        <SEO pageTitle="Faime" />
+        <SEO pageTitle="GHB" />
         <CheckoutMainArea />
       </PrivateRoute>
     </Wrapper>

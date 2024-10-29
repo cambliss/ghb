@@ -10,7 +10,7 @@ const PortfolioDetails = () => {
 
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="GHB" />
       <PortfolioDetailsPage id={id} />
     </Wrapper>
   );

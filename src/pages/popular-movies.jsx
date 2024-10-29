@@ -6,7 +6,7 @@ import HomeFive from "../components/home-five";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Faime" />
+      <SEO pageTitle="GHB" />
       <HomeFive />
     </Wrapper>
   );

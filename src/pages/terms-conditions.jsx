@@ -6,7 +6,7 @@ import TermsConditon from '@components/terms-conditions'
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle="Faime" />
+            <SEO pageTitle="GHB" />
             <TermsConditon />
         </Wrapper>
     );
