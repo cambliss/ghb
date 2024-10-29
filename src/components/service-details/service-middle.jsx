@@ -111,6 +111,9 @@ we craft visually appealing and user - friendly designs that not only captures a
         life by adding an experience layer of subtle animations and page
         transitions.
       </p> */}
+      
+      we offer robust hosting solutions tailored to your specific need's.
+
     </div>
   );
 };
