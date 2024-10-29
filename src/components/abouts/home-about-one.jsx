@@ -86,7 +86,7 @@ const AboutSection = () => {
         <SwiperSlide>
           <p className="mb-20">
             {`At our Global Honey Bee`} Everyones talking about it! Its a
-            new era in marketing! It is "The Experience Era"!! Its a time
+            new era in marketing! It is ,<strong>The Experience Era!! </strong>Its a time
             when people are looking for a distinguished experience via
             engaging with brands and with each other in entirely new ways.
             Today, people are taking control from the brands and
