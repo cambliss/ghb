@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import GalleryImage from '@assets/img/gallery/12.png';
 // import HeroSmallBg from '@assets/img/bg/hero-small.png';
+import herone from '@assets/img/vijay/hero1.png'
 import { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import hero from '@assets/img/movie/12.png'
@@ -38,16 +39,16 @@ const HeroThere = () => {
               <div className="col-xl-4 col-lg-4 ">
                  <div className="fm-hero-thumb hero__right-6">
                     {/* <Image src={GalleryImage} style={{width:'100%', height:'auto'}}  alt="img not found"/> */}
-                    <Image src={hero} style={{width:'100%', height:'auto'}}  alt="img not found"/>
+                    <Image src={herone} style={{width:'100%', height:'auto'}}  alt="img not found"/>
                  </div>
                  <div className="fm-slider-main-social-abs">
                     <div className="fm-sliderfull-social">
                        <label>Follow</label>
-                       <Link href="https://www.facebook.com/profile.php?id=61553561020127" target="_blank"><i className="fa-brands fa-facebook-f"></i></Link>
-                       <Link href="https://twitter.com/" target="_blank"><i className="fa-brands fa-twitter"></i></Link>
-                       <Link href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
-                       <Link href="https://www.pinterest.com/" target="_blank"><i
-                             className="fa-brands fa-pinterest-p"></i></Link>
+                       <Link href="https://www.facebook.com/globalhoneybee" target="_blank"><i className="fa-brands fa-facebook-f"></i></Link>
+                       <Link href="https://x.com/globalhoneybee" target="_blank"><i className="fa-brands fa-twitter"></i></Link>
+                       <Link href="https://www.instagram.com/globalhoneybee/#" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
+                       <Link href="https://www.linkedin.com/company/global-honey-bee/" target="_blank"><i
+                             className="fa-brands fa-linkedin"></i></Link>
                     </div>
                  </div>
               </div>

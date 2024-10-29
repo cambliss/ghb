@@ -3,13 +3,7 @@ import React from "react";
 import HeroThere from "./hero-there";
 import HomeAboutThere from "@components/abouts/home-about-there";
 import MovieSliderOne from "@components/elements/slider/movie-slider/movie-slider-one";
-import MovieSliderTwo from "@components/elements/slider/movie-slider/movie-slider-two";
-import MovieSliderThere from "@components/elements/slider/movie-slider/movie-slider-there";
-import MovieSliderFour from "@components/elements/slider/movie-slider/movie-slider-four";
-import MovieSliderFive from "@components/elements/slider/movie-slider/movie-slider-five";
-import MovieSliderSix from "@components/elements/slider/movie-slider/movie-slider-six";
-import MovieSliderSeven from "@components/elements/slider/movie-slider/movie-slider-seven";
-import MovieSliderEight from "@components/elements/slider/movie-slider/movie-slider-eight";
+
 import ServiceSectionThere from "./service-section-there";
 import VideoSectionThere from "./video-section-there";
 import TeamSectionThere from "./team-section-there";

@@ -97,7 +97,7 @@ const menu_data = [
     id: 5,
     // hasDropdown: true,
     title: "Careers",
-    link: "/blog",
+    link: "#",
     submenus:[],
     // submenus: [
     //   { title: "Blog Standard", link: "/blog" },

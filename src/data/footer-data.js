@@ -63,22 +63,22 @@ const footerData = {
             {
                 id: 1,
                 icon: 'fa-brands fa-facebook-f',
-                url: 'https://www.facebook.com/profile.php?id=61553561020127',
+                url: 'https://www.facebook.com/globalhoneybee',
             },
             {
                 id: 2,
                 icon: 'fa-brands fa-twitter',
-                url: 'https://twitter.com/',
+                url: 'https://x.com/globalhoneybee',
             },
             {
                 id: 3,
                 icon: 'fa-brands fa-instagram',
-                url: 'https://www.instagram.com/',
+                url: 'https://www.instagram.com/globalhoneybee/',
             },
             {
                 id: 4,
-                icon: 'fa-brands fa-pinterest-p',
-                url: 'https://www.pinterest.com/',
+                icon: 'fa-brands fa-linkedin',
+                url: 'https://www.linkedin.com/company/global-honey-bee/',
             },
         ]
     },

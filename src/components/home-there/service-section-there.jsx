@@ -24,7 +24,7 @@ const ServiceSectionThere = () => {
   ];
 
   return (
-    <section className="fm-services-area section-spacing">
+    <section className="fm-services-area section-spacing" style={{background:"#FFCD03"}}>
       <div className="container">
         <div
           className="row justify-content-center section-title-spacing wow fadeInUp"

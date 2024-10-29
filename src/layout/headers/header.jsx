@@ -76,7 +76,7 @@ const Header = ({ HeaderWrapperClass }) => {
                     </span>
                   </button>
                 ) : (
-                  <Link href="/login" className="fill-btn">
+                  <Link href="https://camblissstudio.cloud/index.php/signin" target="_blank" className="fill-btn">
                     Login
                     <span>
                       <i className="fa-regular fa-arrow-right"></i>

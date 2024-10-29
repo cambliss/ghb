@@ -23,7 +23,7 @@ const index = () => {
           <PortFolioSectionFour/>
           {/* <TestimonialSliderTwo/> */}
           {/* <VideoSectionFour/> */}
-          <Vediosectionthree/>
+          {/* <Vediosectionthree/> */}
           <TeamSectionThere/>
           <BlogSectionFour/>
           {/* <CertificateSlider/> */}

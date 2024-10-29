@@ -7,7 +7,10 @@ import img1 from '@assets/img/team/1.jpg'
 import img2 from '@assets/img/team/2.jpg'
 import img3 from '@assets/img/team/3.jpg'
 import img4 from '@assets/img/team/4.jpg'
-
+import sonal from '@assets/img/team/sonal.png'
+import shalu from '@assets/img/team/shalu.png'
+import third from '@assets/img/team/3rd.png'
+import fourth from '@assets/img/team/fourth.png'
 const TeamSectionThere = () => {
   const [teams, setTeams] = useState([]);
   useEffect(() => {
@@ -22,28 +25,28 @@ const TeamSectionThere = () => {
     {
       _id: "1",
       teamItemClass: "team-item-1",
-      teamImg: img1, // Replace with actual image paths
+      teamImg: sonal, // Replace with actual image paths
       teamName: "John Doe",
       designation: "CEO & Founder",
     },
     {
       _id: "2",
       teamItemClass: "team-item-2",
-      teamImg: img2,
+      teamImg: shalu,
       teamName: "Jane Smith",
       designation: "Marketing Manager",
     },
     {
       _id: "3",
       teamItemClass: "team-item-3",
-      teamImg: img2,
+      teamImg: third,
       teamName: "Michael Johnson",
       designation: "Lead Developer",
     },
     {
       _id: "4",
       teamItemClass: "team-item-4",
-      teamImg:img4,
+      teamImg:fourth,
       teamName: "Emily Davis",
       designation: "UI/UX Designer",
     },]
