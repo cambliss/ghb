@@ -19,7 +19,8 @@ const menu_data = [
     // hasDropdown: true,
     // title: "Movie",
     title:"Services",
-    link: "/Services",
+    link:"",
+    // link: "/Services",
     submenus:[]
     // submenus: [
     //   { title: "Movie", link: "/movie" },
