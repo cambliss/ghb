@@ -61,14 +61,14 @@ const ServiceSectionThere = () => {
                   </div>
                   <div className="fm-services-content">
                     <h4 className="fm-services-title">
-                      <Link href={`/service-details/${item._id}`}>
+                      <Link href='#'>
                         {item.name}
                       </Link>
                     </h4>
                     <p className="fm-services-text">{item.description}</p>
                     <div className="fm-btn services-btn">
                       <Link
-                        href={`/service-details/${item._id}`}
+                        href='#'
                         className="fm-view-more"
                       >
                         view more

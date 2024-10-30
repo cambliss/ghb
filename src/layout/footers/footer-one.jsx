@@ -39,10 +39,10 @@ const FooterOne = () => {
                   </div>
                   <div className="footer-text">
                     <p>
-                    Home<br/>
-                    About Us<br/>
-                    Services<br/>
-                    Contact<br/>
+                   <Link href="/"> Home </Link> <br/>
+               <Link href="/About-US">      About Us</Link>  <br/>
+                 
+               <Link href="/contact">     Contact</Link><br/>
                     </p>
                   </div>
                 </div>

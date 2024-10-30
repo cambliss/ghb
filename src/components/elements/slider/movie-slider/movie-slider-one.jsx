@@ -171,7 +171,7 @@ const MovieSliderOne = () => {
               <div className="btn-featured-wrapper d-flex justify-content-lg-end">
                 <div className="featured-btn-circle-wrap btn_wrapper">
                   <Link
-                    href="/movie-details"
+                    href="#"
                     className="featured-rotate-btn btn__item-move"
                   >
                     <span>
