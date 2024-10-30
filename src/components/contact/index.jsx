@@ -28,7 +28,7 @@ const index = () => {
                 id="contacth1"
               >
                 <span class="text-base-color" style={{ color: "#FFCD03" }}>
-                  //
+                {"//"}
                 </span>
                 Contact
               </h1>
