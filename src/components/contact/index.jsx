@@ -22,28 +22,27 @@ const index = () => {
             class="row align-items-end justify-content-center mt-8 md-mt-0"
             style={{ marginTop: "8%" }}
           >
-            <div
-              class="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-12 position-relative page-title-large md-mb-30px appear anime-child anime-complete"
-              // data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
-            >
+            <div class="col-12 col-xxl-4 col-xl-4 col-lg-5 col-md-12 position-relative page-title-large md-mb-30px appear anime-child anime-complete">
               <h1
-                class="text-dark-gray alt-font fw-400 ls-minus-1px mb-0" id="contacth1"
-             
+                class="text-dark-gray alt-font fw-400 ls-minus-1px mb-0"
+                id="contacth1"
               >
                 <span class="text-base-color" style={{ color: "#FFCD03" }}>
                   //
-                </span>{" "}
+                </span>
                 Contact
               </h1>
             </div>
-            <div class="col-12 col-xxl-7 col-xl-7 col-lg-7 offset-xl-1 last-paragraph-no-margin" id="contactsection2">
+            <div
+              class="col-12 col-xxl-7 col-xl-7 col-lg-7 offset-xl-1 last-paragraph-no-margin"
+              id="contactsection2"
+            >
               <h2
                 class="fs-55 lh-65 text-dark-gray fw-600 ls-minus-2px mb-0 appear words lines splitting anime-child anime-complete"
- id="contacth2"
-                data-anime='{ "el": "lines", "translateY": [30, 0], "translateX": [0, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 250, "easing": "easeOutQuad" }'
+                id="contacth2"
               >
                 <span class="d-inline" style={{ willChange: "inherit" }}>
-                  We're here to here answer
+                  We are here to here answer
                 </span>{" "}
                 <span class="d-inline" style={{ willChange: "inherit" }}>
                   any question you may
@@ -61,56 +60,66 @@ const index = () => {
 
         <section class="pt-0" style={{ marginTop: "5%" }}>
           <div class="container">
-            <div
-              class="row row-cols-1 row-cols-md-3 row-cols-sm-2 justify-content-center appear anime-child anime-complete"
-              data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'
-            >
-              <div class="col md-mb-30px text-center text-sm-start" style={{marginBottom:"30px"}}>
-                <span class="fs-15 text-uppercase fw-500 d-block" style={{marginBottom:"10px"}}>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 justify-content-center appear anime-child anime-complete">
+              <div
+                class="col md-mb-30px text-center text-sm-start"
+                style={{ marginBottom: "30px" }}
+              >
+                <span
+                  class="fs-15 text-uppercase fw-500 d-block"
+                  style={{ marginBottom: "10px" }}
+                >
                   Have questions?
                 </span>
-       
+
                 <a
                   href="mailto:help@crafto.com"
                   class="fs-22 ls-minus-05px  fw-500  btn-link-gradient expand text-transform-none"
                   style={{
                     fontSize: "2rem",
                     color: "#000000",
-            
                   }}
                 >
                   help@ghb.digital<span class="bg-dark-gray"></span>
                 </a>
               </div>
-              <div class="col md-mb-30px text-center text-sm-start" style={{marginBottom:"30px"}}>
-                <span class="fs-15 text-uppercase fw-500 d-block" style={{marginBottom:"10px"}}>
+              <div
+                class="col md-mb-30px text-center text-sm-start"
+                style={{ marginBottom: "30px" }}
+              >
+                <span
+                  class="fs-15 text-uppercase fw-500 d-block"
+                  style={{ marginBottom: "10px" }}
+                >
                   Join our team?
                 </span>{" "}
-          
                 <a
                   href="mailto:careers@crafto.com"
                   class="fs-22 ls-minus-05px fw-500  btn-link-gradient expand text-transform-none"
                   style={{
                     fontSize: "2rem",
                     color: "#000000",
-       
                   }}
                 >
                   careers@ghb.digital<span class="bg-dark-gray"></span>
                 </a>
               </div>
-              <div class="col text-center text-sm-start" style={{marginBottom:"30px"}}>
-                <span class="fs-15 text-uppercase fw-500 d-block" style={{marginBottom:"10px"}}>
+              <div
+                class="col text-center text-sm-start"
+                style={{ marginBottom: "30px" }}
+              >
+                <span
+                  class="fs-15 text-uppercase fw-500 d-block"
+                  style={{ marginBottom: "10px" }}
+                >
                   Business inquiries?
                 </span>{" "}
-          
                 <a
                   href="mailto:hello@crafto.com"
                   class="fs-22 ls-minus-05px  fw-500  btn-link-gradient expand text-transform-none"
                   style={{
                     fontSize: "2rem",
                     color: "#000000",
-                 
                   }}
                 >
                   hello@ghb.digital<span class="bg-dark-gray"></span>
@@ -119,7 +128,7 @@ const index = () => {
             </div>
           </div>
         </section>
-    
+
         <section class="position-relative py-0">
           <div class="container-fluid">
             <div class="row justify-content-center">
@@ -143,7 +152,6 @@ const index = () => {
         </section>
         <ContactArea />
         <ContactMap />
-        {/* <ContactSection /> */}
       </main>
       <FooterOne />
     </>

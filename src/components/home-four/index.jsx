@@ -12,8 +12,8 @@ import ContactSection from '@components/common/contact/contact-area';
 import FooterOne from '@layout/footers/footer-one';
 import TeamSectionThere from '@components/home-there/team-section-there';
 
-import Vediosectionthree from '@components/home-two/video-area-section'
-const index = () => {
+
+const Index = () => {
 
   const [bgColor, setBgColor] = useState('#5E9CEB'); // Initial background color
 
@@ -61,4 +61,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default Index;
