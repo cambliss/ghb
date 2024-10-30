@@ -343,14 +343,15 @@
 
 .fm-team-content {
   position: absolute;
-  top: 50%;
+  top: 73%;
   left: 0;
-  transform: translateY(-50%);
+  z-index: 22;
+  transform: translateY(-73%);
   width: 100%;
   transition: all 0.5s ease-out 0s;
 
   @media (hover:none) {
-    top: 73%;
+    top: 50%;
   }
 }
 
@@ -378,11 +379,14 @@
   &:hover {
     .fm-team-content {
       .fm-team-title {
-        color: var(--clr-common-white);
+        // color: var(--clr-common-white);
+        color: #000000;
       }
 
       .fm-team-designation {
-        color: var(--clr-common-white);
+        // color: var(--clr-common-white);
+        color: #000000;
+
       }
     }
   }
@@ -413,10 +417,10 @@
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
-  opacity: 0;
+  opacity: 1;
 
   @media (hover:none) {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -427,23 +431,26 @@
 
 
 .fm-team-item {
+
   &:hover {
+
     .fm-team-content {
-      top: 73%;
+      top: 50%;
+
     }
 
     .fm-team-thumb {
-      opacity: 1;
+      opacity: 0;
     }
   }
 
   &.active {
     .fm-team-content {
-      top: 73%;
+      top: 50%;
     }
 
     .fm-team-thumb {
-      opacity: 1;
+      opacity: 0;
     }
 
     .fm-team-title {

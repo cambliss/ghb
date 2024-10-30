@@ -9,12 +9,12 @@ const ServiceSectionThere = () => {
     {
       name: "Design",
       description:
-        "We are interested in telling stories through&nbsp;visuals&nbsp;that we extrapolate from the symbolic universe of each brand. We draw fully on the visual/cultural aspects that qualify the client and catalyse as many narrative speeches as possible in the design idea, respecting the soul of the brand.",
+        "We are interested in telling stories through visuals that we extrapolate from the symbolic universe of each brand. We draw fully on the visual/cultural aspects that qualify the client and catalyse as many narrative speeches as possible in the design idea, respecting the soul of the brand.",
     },
     {
       name: "Digital",
       description:
-        "We analyse, coordinate and develop digital projects and experiences. Each solution relies on a&nbsp;dynamic approach&nbsp;between experimentation, technology and creativity in which the right emotional drive allows the achievement of the goal.",
+        "We analyse, coordinate and develop digital projects and experiences. Each solution relies on a dynamic approach between experimentation, technology and creativity in which the right emotional drive allows the achievement of the goal.",
     },
     {
       name: "Web & Mobile",

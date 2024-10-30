@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React,{useState,useEffect} from "react";
 import historyImgOne from "@assets/img/logo/aboutuscambliss1.png";
 import historyImgTwo from "@assets/img/history/img-2.jpg";
 import historyImgThere from "@assets/img/history/img-3.jpg";
@@ -40,6 +40,40 @@ const HistorySectionFour = () => {
         "Review and testing takes place, which ensures the quality of your project. We value your reputation and want to make sure it is correct. After this, we present your finished custom project and upon approval, your new product/campaign will be launched and promoted.",
     },
   ];
+
+
+
+
+
+
+
+
+
+
+  const [color, setColor] = useState('#000'); // Default text color
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+
+      // Adjust the color based on the scroll position
+      if (scrollPosition < 400) {
+        setColor('#ffffff'); // Black at the top
+      } else if (scrollPosition >= 400 && scrollPosition < 900) {
+        setColor('#ffffff'); // Coral for mid-scroll
+      } else {
+        setColor('#000000'); // Blue when further down
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className="history-area section-spacing-bottom">
       <div className="container">
@@ -50,8 +84,8 @@ const HistorySectionFour = () => {
                 className="section-title sec-sub-style mb-60 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
-                <span className="section-subtitle">Why Work With US</span>
-                <h2 className="section-main-title about-sec-title-2  title-anim">
+                <span className="section-subtitle" style={{ color: color }}>Why Work With US</span>
+                <h2 className="section-main-title about-sec-title-2  title-anim" style={{ color: color }}>
                   Where imagination and Strategy Converge
                 </h2>
               </div>
@@ -59,15 +93,15 @@ const HistorySectionFour = () => {
               <ul className="history-link wow fadeInUp" data-wow-delay="0.4s">
                 {historyData.map((item) => (
                   <li key={item.id}>
-                    <div className="history-2-icon">
-                      <i className={item.iconOne}></i>
+                    <div className="history-2-icon" style={{ color: color }}>
+                      <i className={item.iconOne} style={{ color: color }}></i>
                       <div className="history-tag">
                         <i className={item.iconTwo}></i>
                       </div>
                     </div>
-                    <div className="history-content">
-                      <h3>{item.title}</h3>
-                      <p>{item.description}</p>
+                    <div className="history-content" >
+                      <h3 style={{ color: color }}>{item.title}</h3>
+                      <p style={{ color: color }}>{item.description}</p>
                     </div>
                   </li>
                 ))}

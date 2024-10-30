@@ -10,7 +10,7 @@ import a3 from '@assets/img/about-us/3.jpg'
 
 const HomeAboutFour = () => {
   return (
-    <div className="about-area section-spacing-top fix-top">
+    <div className="about-area section-spacing-top fix-top" >
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-6">
@@ -47,9 +47,9 @@ const HomeAboutFour = () => {
               className="about-2-wrapper wow fmSlideInRight"
               data-wow-delay="0.4s"
             >
-              <div className="section-title sec-sub-style mb-30">
+              <div className="section-title sec-sub-style mb-30" >
                 <span className="section-subtitle">ABOUT US</span>
-                <h2 className="section-main-title about-sec-title-2 title-anim ">
+                <h2 className="section-main-title about-sec-title-2 title-anim " style={{color:"#ffffff"}}>
                   Digitals Dreamers Since
                   <br />
                   <span>2016</span>

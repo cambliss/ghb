@@ -214,3 +214,56 @@
 		
 	}
 }
+#contacth1{
+
+	font-size: 6.6rem;
+	font-weight: 600;
+}
+#contacth2{
+	/* style={{ fontSize: "6.6rem", fontWeight: "600" }}
+	// style="" */
+	font-size: 5.7rem;
+line-height: 6.06rem;
+}
+@media screen and (max-width:480px) {
+	#contacth1{
+		font-size: 4rem;
+
+	}
+	#contactsection2{
+		margin-top: 4%;
+	}
+	#contacth2{
+		font-size: 25px;
+		line-height: 3.8rem;
+	}
+	
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+	#contacth1{
+		font-size: 38px;
+
+	}
+	#contactsection2{
+		margin-top: 4%;
+	}
+	#contacth2{
+		font-size: 30px;
+		line-height: 4.06rem;
+	}
+	
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+	#contacth1{
+		font-size: 48px;
+
+	}
+	#contactsection2{
+		margin-top: 4%;
+	}
+	#contacth2{
+		font-size: 40px;
+		line-height: 5.06rem;
+	}
+	
+}

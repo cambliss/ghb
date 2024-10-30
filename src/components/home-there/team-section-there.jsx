@@ -91,7 +91,7 @@ const TeamSectionThere = () => {
               teams1.map((item) => (
                 <div className='fm-team-item p-relative ' key={item._id}>
                   <div className="fm-team-thumb w-img">
-                    <Link href={`/team-details/${item._id}`}>
+                    <Link href='#'>
                       <Image
                         width={500}
                         height={500}
@@ -102,12 +102,12 @@ const TeamSectionThere = () => {
                     </Link>
                   </div>
                   <div className="fm-team-content">
-                    <h4 className="fm-team-title ">
-                      <Link href={`/team-details/${item._id}`}>
+                    <h4 className="fm-team-title">
+                      <Link href='#'>
                         {item.teamName}
                       </Link>
                     </h4>
-                    <span className="fm-team-designation ">
+                    <span className="fm-team-designation" >
                       {item.designation}
                     </span>
                   </div>
